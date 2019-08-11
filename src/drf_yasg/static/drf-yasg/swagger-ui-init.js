@@ -23,7 +23,7 @@ var swaggerUiConfig = {
     displayRequestDuration: true,
     presets: [
         SwaggerUIBundle.presets.apis,
-        SwaggerUIStandalonePreset
+        SwaggerUIStandalonePreset.slice(1)
     ],
     plugins: [
         SwaggerUIBundle.plugins.DownloadUrl
